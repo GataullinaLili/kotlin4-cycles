@@ -5,8 +5,8 @@ fun main() {
     val n = readlnOrNull()?.toIntOrNull()
 
     if (n != null) {
-            val del= mutableSetOf(1, number) 
-            val sqrtNumber = sqrt(number.toDouble()).toInt()
+            val del= mutableSetOf(1, n) 
+            val sqrtNumber = sqrt(n.toDouble()).toInt()
             for (i in 2..sqrtNumber) {
                 if (n % i == 0) {
                     del.add(i)
